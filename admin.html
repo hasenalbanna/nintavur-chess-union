@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Player - Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Admin - Add Player</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="players.html">Players</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="player-form">
+      <label>Player Name: <input type="text" id="name" required></label><br>
+      <label>FIDE Rating: <input type="text" id="rating"></label><br>
+      <label>Photo: <input type="file" id="photo" accept="image/*"></label><br>
+      <label>Tournaments (comma separated):<br>
+        <textarea id="tournaments"></textarea>
+      </label><br>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

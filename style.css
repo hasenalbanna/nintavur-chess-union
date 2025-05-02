@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #add8e6;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  

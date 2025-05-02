@@ -1,0 +1,14 @@
+[
+    {
+      "id": "banna",
+      "name": "Hasen Al Banna",
+      "rating": "1800",
+      "photo": "images/banna.jpg",
+      "tournaments": [
+        "Negombo Blitz - 2024",
+        "KDU Internal - 2024",
+        "Nintavur Classic - 2023"
+      ]
+    }
+  ]
+  
